@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e867341e-e683-49cd-b4f0-7ad93d3b4e78}</UniqueIdentifier>
+      <Extensions>c;cpp;rc;idl</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6c8d5b2f-64df-4418-ac63-52ff3bffd3ee}</UniqueIdentifier>
+      <Extensions>h;def</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{03b8f207-1023-48a4-b646-fe9fea36e1fd}</UniqueIdentifier>
+      <Extensions>ico;cur;tlb;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="classfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsofauto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsofcontrol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsofdocobj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dsofprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="Lib\dsoframer.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\dsoframer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dsofdocobj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dsoframer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsoframer.def">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\dso.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="lib\dsoframer.olb">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="res\toolbox.bmp">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
